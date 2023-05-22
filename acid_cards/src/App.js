@@ -4,20 +4,32 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="wrapper">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <main className='main'>
+          <nav className='navbar'>
+            <ul type="none">
+              <li><a href='#'>Ксенон  Xe </a>(2)</li>
+              <li><a href='#'>Фтор    F  </a>(2)</li>
+              <li><a href='#'>Хлор    Cl </a>(5)</li>
+              <li><a href='#'>Бром    Br </a>(5)</li>
+              <li><a href='#'>Йод     I  </a>(7)</li>
+              <li><a href='#'>Сера    S  </a>(11)</li>
+              <li><a href='#'>Селен   Se </a>(3)</li>
+              <li><a href='#'>Теллур  Te </a>(3)</li>
+              <li><a href='#'>Азот    N  </a>(5)</li>
+              <li><a href='#'>Фосфор  P  </a>(9)</li>
+              <li><a href='#'>Мышьяк  As </a>(2)</li>
+              <li><a href='#'>Сурьма  Sb </a>(2)</li>
+              <li><a href='#'>Кремний Si </a>(3)</li>
+              <li><a href='#'>Бор     B  </a>(1)</li>
+            </ul>
+          </nav>
+          <article></article>
+        </main>
+      </div>
     </div>
   );
 }
