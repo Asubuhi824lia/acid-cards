@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/Navbar/Navbar'
+import Article from './components/Article/Article'
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main className='main'>
-          <Navbar />
-          <article></article>
+          <Navbar  />
+          <Article />
         </main>
       </div>
     </div>
