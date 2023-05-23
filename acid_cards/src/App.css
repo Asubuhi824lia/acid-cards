@@ -19,9 +19,3 @@
 .wrapper {
   width: 85%;
 }
-
-.main {
-  min-height: 100px;
-  background-color: white;
-  display: flex;
-}

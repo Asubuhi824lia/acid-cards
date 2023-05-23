@@ -1,18 +1,14 @@
 import './App.css';
 
 import Header from './components/Header/Header'
-import Navbar from './components/Navbar/Navbar'
-import Article from './components/Article/Article'
+import Main   from './components/Main/Main'
 
 function App() {
   return (
     <div className="App">
       <div className="wrapper">
         <Header />
-        <main className='main'>
-          <Navbar  />
-          <Article />
-        </main>
+        <Main />
       </div>
     </div>
   );
