@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #E7E9EB;
+    min-height: inherit;
+    width: 30%;
+    padding: 30px 25px;
+    text-align: left;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+.navbar li {
+    margin-bottom: 8px;
+}
+  
