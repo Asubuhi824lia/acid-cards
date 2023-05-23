@@ -6,6 +6,10 @@
     text-align: left;
 }
 
+ul {
+    margin-top: 15px;
+}
+
 .navbar li {
     margin-bottom: 8px;
 }

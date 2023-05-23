@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from './Navbar.module.css'
 
+
 const Navbar = () => {
     return <nav className={styles.navbar}>
+        <h4>Элементы</h4>
         <ul type="none">
             <li><a href='#'>Ксенон  Xe</a>  (2)</li>
             <li><a href='#'>Фтор    F</a>   (2)</li>
