@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router-dom";
 
 const Main = (props) => {
 
-    let routes = props.acidElems.elems
+    let routes = props.acidElems
         .map(e => <Route path={"/" + e.name_en.toLowerCase()} element={<FormArticle/>} />);
 
     return (

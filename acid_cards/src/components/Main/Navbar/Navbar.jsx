@@ -9,7 +9,7 @@ const Navbar = (props) => {
         return <li><NavLink to={str_en}> {str_ru} {symbol}</NavLink> ({number})</li>
     }
 
-    let NavLinks = props.acidElems.elems.map(elem => {
+    let NavLinks = props.acidElems.map(elem => {
         const str_en = elem.name_en.toLowerCase()
         const str_ru = elem.name_ru[0].toUpperCase() + elem.name_ru.slice(1).toLowerCase()
         const symbol = elem.symbol
