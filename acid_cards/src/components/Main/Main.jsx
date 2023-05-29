@@ -8,17 +8,14 @@ import * as React from "react";
 import { Route, Routes } from "react-router-dom";
 
 
-import acid_elems from "../../acid_elems.json"
+const Main = (props) => {
 
-
-const Main = () => {
-
-    let routes = acid_elems.elems
+    let routes = props.acidElems.elems
         .map(e => <Route path={"/" + e.name_en.toLowerCase()} element={<FormArticle/>} />);
 
     return (
         <main className={styles.main}>
-            <Navbar />
+            <Navbar acidElems={props.acidElems} />
             <div className="articles_wrapper_content">
                 <Routes>
                     {routes}
