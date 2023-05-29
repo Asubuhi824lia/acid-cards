@@ -36,10 +36,8 @@ const formRoute = (elem) => {
 
 const Main = () => {
 
-    let routes = []
-    acid_elems.elems.forEach(element => {
-        const route = formRoute(element.name_en.toLowerCase())
-        routes.push(route)
+    let routes = acid_elems.elems.map(element => {
+        return formRoute(element.name_en.toLowerCase())
     });
 
     return (

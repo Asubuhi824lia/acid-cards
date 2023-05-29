@@ -12,17 +12,14 @@ const Navbar = () => {
         return <li><NavLink to={str_en}> {str_ru} {symbol}</NavLink> ({number})</li>
     }
 
-    let NavLinks = []
-    acid_elems.elems.forEach(element => {
+    let NavLinks = acid_elems.elems.map(element => {
         const str_en = element.name_en.toLowerCase()
         const str_ru = element.name_ru[0].toUpperCase() + element.name_ru.slice(1).toLowerCase()
         const symbol = element.symbol
         const number = element.acids.quantity
 
-        const li = formNavLink(str_en, str_ru, symbol, number)
-        NavLinks.push(li)
+        return formNavLink(str_en, str_ru, symbol, number)
     });
-    console.log(NavLinks)
 
     return <nav className={styles.navbar}>
         <h4>Элементы</h4>
