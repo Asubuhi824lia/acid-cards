@@ -7,6 +7,8 @@ import { Xsenon, Ftor } from './Article/Articles'
 import * as React from "react";
 import { Route, Routes } from "react-router-dom";
 
+import acid_elems from "../../acid_elems.json"
+
 
 const FormArticle = () => {
     const url = window.location.href
@@ -26,16 +28,27 @@ const FormArticle = () => {
         </div >)
 }
 
+const formRoute = (elem) => {
+    const path = "/" + elem;
+    return <Route path={path} element={<FormArticle />} />
+}
+
+
 const Main = () => {
+
+    let routes = []
+    acid_elems.elems.forEach(element => {
+        const route = formRoute(element.name_en.toLowerCase())
+        routes.push(route)
+    });
+
     return (
         <main className={styles.main}>
             <Navbar />
             <div class="articles_wrapper_content">
                 {/* <FormArticle name="xenon" /> */}
                 <Routes>
-                    <Route path="/xenon"    element={<FormArticle />} />
-                    <Route path="/ftor"     element={<Ftor />} />
-                    <Route path="/chlor"    element={<FormArticle />} />
+                    {routes}
                 </Routes>
             </div>
         </main>
