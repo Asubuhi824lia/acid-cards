@@ -1,0 +1,26 @@
+@import url("./components/header.css");
+@import url("./components/main.css");
+@import url("./components/in-main/nav.css");
+@import url("./components/in-main/article.css");
+
+:root {
+    --app-logo-height: 15vmin;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    text-align: center;
+    background-color: #896BC9;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    width: 85%;
+  }

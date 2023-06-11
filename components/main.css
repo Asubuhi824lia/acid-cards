@@ -1,5 +1,5 @@
-.main {
-    min-height: 100px;
+main {
+    min-height: 300px;
     background-color: white;
     display: flex;
 }

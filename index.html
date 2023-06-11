@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acid cards</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+    <div class="App">
+        <div class="wrapper">
+            <header class="App_header">
+                <img src="logo.svg" class="App_logo" alt="logo" />
+            </header>
+            <main>
+                <nav>
+                    <h2 x-data="{ message: 'Группы' }" x-text="message"></h1>
+                </nav>
+                <article>
+                    <h1 x-data="{ message: 'Имя элемента' }" x-text="message"></h1>
+                </article>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

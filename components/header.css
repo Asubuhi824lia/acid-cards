@@ -1,6 +1,6 @@
 .App_logo {
     height: var(--app-logo-height);
-    margin: calc(var(--app-logo-height) / 2) 0;
+    margin: calc(var(--app-logo-height) / 4) 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
