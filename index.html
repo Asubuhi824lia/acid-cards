@@ -21,9 +21,7 @@
                     <div x-data="{ elem: 'Ксенон', num: '2' }">
                         <a href='#' x-text="$data.elem + ' (' + $data.num + ')'"></a>
                     </div>
-                    <div x-data="{ acids: [], show({}) {console.log($data.acids.elems)} }"
-                         x-init="acids = await(await fetch('./data/acid_elem_groups.json')).json()"
-                    >
+                    <div x-data="acids">
                         <button @click="show">Get elems</button>
                     </div>
                 </nav>
@@ -33,5 +31,27 @@
             </main>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('acids', () => ({
+                groups: [],
+     
+                init() {
+                    (async() => {
+                        let {default:json} = await import(`data:application/javascript,
+                            ${encodeURIComponent('export default ')}
+                            ${JSON.stringify(await(await fetch('./data/acid_elem_groups.json')).json())}`);
+                        this.groups = json.elems
+                        console.log(this.groups);
+                    })()
+                },
+
+                show() {
+                    console.log(this.groups)
+                }
+            }))
+        })
+    </script>
 </body>
 </html>
