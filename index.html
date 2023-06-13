@@ -17,7 +17,7 @@
             </header>
             <main>
                 <nav>
-                    <h2 x-data="{ message: 'Группы' }" x-text="message"></h1>
+                    <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
                     <ul x-data="acids">
                         <template x-for="(group, index) in groups">
                             <li @mouseenter="onhover = true" @mouseleave="onhover = false">
@@ -59,9 +59,7 @@
 
                 changeArticle(id) {
                     this.chosen = id;
-                    console.log(this.chosen)
                     this.cur_group = this.groups[this.chosen]
-                    console.log(this.cur_group)
                 },
     
                 cur_group: [],
