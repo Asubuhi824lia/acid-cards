@@ -18,12 +18,13 @@
             <main>
                 <nav>
                     <h2 x-data="{ message: 'Группы' }" x-text="message"></h1>
-                    <div x-data="{ elem: 'Ксенон', num: '2' }">
-                        <a href='#' x-text="$data.elem + ' (' + $data.num + ')'"></a>
-                    </div>
-                    <div x-data="acids">
-                        <button @click="show">Get elems</button>
-                    </div>
+                    <ul x-data="acids">
+                        <template x-for="group in groups">
+                            <li>
+                                <a href="/" x-text="group.name_ru +' ('+ group.acids.quantity +')'"></a>
+                            </li>
+                        </template>
+                    </ul>
                 </nav>
                 <article>
                     <h1 x-data="{ message: 'Имя элемента' }" x-text="message"></h1>
@@ -46,10 +47,6 @@
                         console.log(this.groups);
                     })()
                 },
-
-                show() {
-                    console.log(this.groups)
-                }
             }))
         })
     </script>

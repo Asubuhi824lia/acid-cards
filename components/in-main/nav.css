@@ -8,8 +8,14 @@ nav {
 
 ul {
     margin-top: 15px;
+    list-style-type: none;
 }
 
 nav li {
     margin-bottom: 8px;
+    text-align-last: justify;
+}
+
+a {
+    text-decoration: none;
 }
