@@ -20,8 +20,8 @@
                     <h2 x-data="{ message: 'Группы' }" x-text="message"></h1>
                     <ul x-data="acids">
                         <template x-for="group in groups">
-                            <li>
-                                <a href="/" x-text="group.name_ru +' ('+ group.acids.quantity +')'"></a>
+                            <li @mouseenter="onhover = true" @mouseleave="onhover = false">
+                                <a href="/" :title="group.name_en" x-text="group.name_ru +' ('+ group.acids.quantity +')'"></a>
                             </li>
                         </template>
                     </ul>
@@ -47,6 +47,8 @@
                         console.log(this.groups);
                     })()
                 },
+
+                onhover: false,
             }))
         })
     </script>
