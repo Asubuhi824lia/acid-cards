@@ -19,15 +19,19 @@
                 <nav>
                     <h2 x-data="{ message: 'Группы' }" x-text="message"></h1>
                     <ul x-data="acids">
-                        <template x-for="group in groups">
+                        <template x-for="(group, index) in groups">
                             <li @mouseenter="onhover = true" @mouseleave="onhover = false">
-                                <a href="/" :title="group.name_en" x-text="group.name_ru +' ('+ group.acids.quantity +')'"></a>
+                                <a  href="/" @click.prevent 
+                                    :title="group.name_en" 
+                                    x-text="group.name_ru +' ('+ group.acids.quantity +')'"
+                                    x-id="[index]" @click="changePage( $id(index).split('-')[0] )"
+                                ></a>
                             </li>
                         </template>
                     </ul>
                 </nav>
                 <article>
-                    <h1 x-data="{ message: 'Имя элемента' }" x-text="message"></h1>
+                    <h1 x-data x-text="$store.acid_groups.cur_group.name_ru"></h1>
                 </article>
             </main>
         </div>
@@ -48,8 +52,34 @@
                     })()
                 },
 
+                changePage(id) {
+                    this.$store.acid_groups.chosen = id;
+                    console.log(this.$store.acid_groups.chosen)
+                },
+
                 onhover: false,
-            }))
+            }));
+
+
+
+            Alpine.store('acid_groups', {
+                groups: [],
+                chosen: 0,
+     
+                init() {
+                    (async() => {
+                        let {default:json} = await import(`data:application/javascript,
+                            ${encodeURIComponent('export default ')}
+                            ${JSON.stringify(await(await fetch('./data/acid_elem_groups.json')).json())}`);
+                        this.groups = json.elems
+                        
+                        this.cur_group = this.groups[this.chosen]
+                        console.log(this.cur_group)
+                    })()
+                },
+    
+                cur_group: [],
+            })
         })
     </script>
 </body>
