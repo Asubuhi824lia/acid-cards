@@ -18,11 +18,11 @@
             <main>
                 <nav>
                     <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
-                    <ul x-data="acids">
+                    <ul x-data="{ groups: [], onhover: false, }" x-init="groups = (await(await fetch('./data/acid_elem_groups.json')).json()).groups">
                         <template x-for="(group, group_id) in groups">
                             <div x-data="{ open: false }">
                                 <br>
-                                <h4 @click="open = !open" x-text="group.group_name" class="nav-tabs"></h4>
+                                <h4 @click="open = !open; console.log(group.group_name)" x-text="group.group_name" class="nav-tabs"></h4>
 
                                 <div x-show="open" x-transition.duration.500ms>
                                     <br>
@@ -76,25 +76,6 @@
     
                 cur_group: [],
             })
-
-
-
-            
-            Alpine.data('acids', () => ({
-                groups: [],
-     
-                init() {
-                    (async() => {
-                        let {default:json} = await import(`data:application/javascript,
-                            ${encodeURIComponent('export default ')}
-                            ${JSON.stringify(await(await fetch('./data/acid_elem_groups.json')).json())}`);
-                        this.groups = json.groups
-                        console.log(this.groups);
-                    })()
-                },
-                
-                onhover: false,
-            }));
 
         })
     </script>
