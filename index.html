@@ -33,7 +33,7 @@
                                         <li @mouseenter="onhover = true" @mouseleave="onhover = false">
                                             <a  href="/" @click.prevent @click="$store.group.changeArticle(group_id, el_id)"
                                                 :title="elem.name_en" 
-                                                x-text="elem.name_ru +' ('+ elem.acids.quantity +')'"
+                                                x-text="elem.name_ru +' ('+ elem.acids.length +')'"
                                             ></a>
                                             <template x-if="el_id == arr.length-1">
                                                 <hr>

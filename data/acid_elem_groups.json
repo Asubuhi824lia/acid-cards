@@ -7,7 +7,24 @@
                     "name_en": "xenon",
                     "name_ru": "ксенон",
                     "symbol": "Xe",
-                    "acids": { "quantity": 2 }
+                    "acids": [
+                        {
+                            "name": "Ксеноновая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/6/66/Xenic_acid.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/e560e2d0c77c26edb42ab0c613bb8e7d7828f675"
+                            },
+                            "oxidation": "+6"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/3/32/Perxenons%C3%A4ure_Structural_Formula_V.1.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/a36540e0b7d39ded2ec258f11e540bf33fc69209"
+                            },
+                            "oxidation": "+8"
+                        }
+                    ]
                 }
             ]
         },
@@ -18,25 +35,165 @@
                     "name_en": "fluorine",
                     "name_ru": "фтор",
                     "symbol": "F",
-                    "acids": { "quantity": 2 }
+                    "acids": [
+                        {
+                            "name": "Плавиковая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Polytetrafluorethylen.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/578365e1a6ece698255547d45c31be4d5571ae44"
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Гипофтористоводородная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hypofluorous_acid.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/cdd9cb9086613bf6f3aa7aea0cef6ff54f25b5e6"
+                            },
+                            "oxidation": "-1"
+                        }
+                    ]
                 },
                 {
                     "name_en": "chlorine",
                     "name_ru": "хлор",
                     "symbol": "Cl",
-                    "acids": { "quantity": 5 }
+                    "acids": [
+                        {
+                            "name": "Соляная кислота",
+                            "formula": {
+                                "structure": "https://enfo.hu/sites/default/files/HCl.jpg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5b6fc847e862538393418e091544f38ef82a6c7d"
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Хлорноватистая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hypochlorige_S%C3%A4ure.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/0e34a08be397517f0d4678da58d94b2604c4a1a9"
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Хлорноватистая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Chlorous-acid-2D.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/f7398b7f9105d65d3e07239b33a38af0d8aa65b8"
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Хлорная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/0/04/Chloric_acid.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/42bafea19ec9fed2d99f99ae4d5b7b4b1f1877cc"
+                            },
+                            "oxidation": "+5"
+                        },
+                        {
+                            "name": "Хлорная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Perchloric_acid_Structural_Formula_V.1.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/e51b5a2c3ad387a08f35cf310c83893f2b6c15f6"
+                            },
+                            "oxidation": "+7"
+                        }
+                    ]
                 },
                 {
                     "name_en": "bromine",
                     "name_ru": "бром",
                     "symbol": "Br",
-                    "acids": { "quantity": 5 }
+                    "acids": [
+                        {
+                            "name": "Бромистоводородная кислота",
+                            "formula": {
+                                "structure": "https://w7.pngwing.com/pngs/806/351/png-transparent-hydrobromic-acid-hydrogen-bromide-chemistry-dot-formula.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/108dd2b73ada9afa361c5d621c24539dfb713da7"
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Гипобромистая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/7/74/Hypobromous_acid.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/98ad5341d8cbeb0663197850e4959305da4d8b05"
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Бромистая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bromige_saeure.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/8512a890ded81c6574e2baca0f289816e7a8e960"
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Бромная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Bromic_acid.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/bc56ef368d982ce67b6111364e5148f449d8eeb7"
+                            },
+                            "oxidation": "+5"
+                        },
+                        {
+                            "name": "Пербромовая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/5/55/Perbroms%C3%A4ure.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/3194368e9cdaba58016e836ddd298240491756be"
+                            },
+                            "oxidation": "+7"
+                        }
+                    ]
                 },
                 {
                     "name_en": "iodine",
                     "name_ru": "йод",
                     "symbol": "I",
-                    "acids": { "quantity": 5 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+5"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+7"
+                        }
+                    ]
                 }
             ]
         },
@@ -47,19 +204,158 @@
                     "name_en": "sulfur",
                     "name_ru": "сера",
                     "symbol": "S",
-                    "acids": { "quantity": 11 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        }
+                    ]
                 },
                 {
                     "name_en": "selenium",
                     "name_ru": "селен",
                     "symbol": "Se",
-                    "acids": { "quantity": 3 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        }
+                    ]
                 },
                 {
                     "name_en": "tellurium",
                     "name_ru": "теллур",
                     "symbol": "Te",
-                    "acids": { "quantity": 3 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        }
+                    ]
                 }
             ]
         },
@@ -70,37 +366,219 @@
                     "name_en": "nitrogen",
                     "name_ru": "азот",
                     "symbol": "N",
-                    "acids": { "quantity": 5 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        }
+                    ]
                 },
                 {
                     "name_en": "phosphorus",
                     "name_ru": "фосфор",
                     "symbol": "P",
-                    "acids": { "quantity": 9 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        }
+                    ]
                 },
                 {
                     "name_en": "arsenic",
                     "name_ru": "мышьяк",
                     "symbol": "As",
-                    "acids": { "quantity": 2 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        }
+                    ]
                 },
                 {
                     "name_en": "antimony",
                     "name_ru": "сурьма",
                     "symbol": "Sb",
-                    "acids": { "quantity": 2 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        }
+                    ]
                 },
                 {
                     "name_en": "silicon",
                     "name_ru": "кремний",
                     "symbol": "Si",
-                    "acids": { "quantity": 3 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+1"
+                        },
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "+3"
+                        }
+                    ]
                 },
                 {
                     "name_en": "boron",
                     "name_ru": "бор",
                     "symbol": "B",
-                    "acids": { "quantity": 1 }
+                    "acids": [
+                        {
+                            "name": "Перксеноновая кислота",
+                            "formula": {
+                                "structure": "",
+                                "molecular": ""
+                            },
+                            "oxidation": "-1"
+                        }
+                    ]
                 }
             ]
         }
