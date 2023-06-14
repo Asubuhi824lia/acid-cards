@@ -20,11 +20,14 @@
                     <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
                     <ul x-data="{ groups: [], onhover: false, }" x-init="groups = (await(await fetch('./data/acid_elem_groups.json')).json()).groups">
                         <template x-for="(group, group_id) in groups">
-                            <div x-data="{ open: false }">
+                            <div    x-data="{ open: group_id == 0 ? true : false }" 
+                                    @change="open = !open">
                                 <br>
-                                <h4 @click="open = !open; console.log(group.group_name)" x-text="group.group_name" class="nav-tabs"></h4>
+                                <h4 @click="$dispatch('change')" 
+                                    x-text="group.group_name" 
+                                    class="nav-tabs"></h4>
 
-                                <div x-show="open" x-transition.duration.500ms>
+                                <div x-cloack x-show="open" x-transition.duration.500ms>
                                     <br>
                                     <template x-for="(elem, el_id, arr) in group.elems">
                                         <li @mouseenter="onhover = true" @mouseleave="onhover = false">

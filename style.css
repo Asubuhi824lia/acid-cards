@@ -24,3 +24,5 @@
   .wrapper {
     width: 85%;
   }
+
+  [x-cloak] { display: none !important; }
