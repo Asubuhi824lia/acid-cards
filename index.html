@@ -19,14 +19,26 @@
                 <nav>
                     <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
                     <ul x-data="acids">
-                        <template x-for="(group, index) in groups">
-                            <li @mouseenter="onhover = true" @mouseleave="onhover = false">
-                                <a  href="/" @click.prevent 
-                                    :title="group.name_en" 
-                                    x-text="group.name_ru +' ('+ group.acids.quantity +')'"
-                                    x-id="[index]" @click="$store.group.changeArticle( $id(index).split('-')[0] )"
-                                ></a>
-                            </li>
+                        <template x-for="(group, group_id) in groups">
+                            <div x-data="{ open: false }">
+                                <br>
+                                <h4 @click="open = !open" x-text="group.group_name" class="nav-tabs"></h4>
+
+                                <div x-show="open" x-transition.duration.500ms>
+                                    <br>
+                                    <template x-for="(elem, el_id, arr) in group.elems">
+                                        <li @mouseenter="onhover = true" @mouseleave="onhover = false">
+                                            <a  href="/" @click.prevent @click="$store.group.changeArticle(group_id, el_id)"
+                                                :title="elem.name_en" 
+                                                x-text="elem.name_ru +' ('+ elem.acids.quantity +')'"
+                                            ></a>
+                                            <template x-if="el_id == arr.length-1">
+                                                <hr>
+                                            </template>
+                                        </li>
+                                    </template>
+                                </div>
+                            </div>
                         </template>
                     </ul>
                 </nav>
@@ -42,24 +54,24 @@
 
             Alpine.store('group', {
                 groups: [],
-                chosen: 0,
+                chosen: [0, 0],
      
                 init() {
                     (async() => {
                         let {default:json} = await import(`data:application/javascript,
                             ${encodeURIComponent('export default ')}
                             ${JSON.stringify(await(await fetch('./data/acid_elem_groups.json')).json())}`);
-                        this.groups = json.elems
+                        this.groups = json.groups
                         
-                        this.cur_group = this.groups[this.chosen]
+                        this.changeArticle(0, 0)
                         console.log(this.cur_group)
                     })()
                     
                 },
 
-                changeArticle(id) {
-                    this.chosen = id;
-                    this.cur_group = this.groups[this.chosen]
+                changeArticle(group_id, el_id) {
+                    this.chosen = [group_id, el_id];
+                    this.cur_group = this.groups[this.chosen[0]].elems[this.chosen[1]]
                 },
     
                 cur_group: [],
@@ -76,7 +88,7 @@
                         let {default:json} = await import(`data:application/javascript,
                             ${encodeURIComponent('export default ')}
                             ${JSON.stringify(await(await fetch('./data/acid_elem_groups.json')).json())}`);
-                        this.groups = json.elems
+                        this.groups = json.groups
                         console.log(this.groups);
                     })()
                 },

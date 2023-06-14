@@ -20,3 +20,7 @@ a {
     text-decoration: none;
     text-transform: capitalize;
 }
+
+.nav-tabs {
+    cursor: pointer;
+}
