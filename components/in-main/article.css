@@ -8,3 +8,7 @@ article h1 {
     text-align: right;
     text-transform: capitalize;
 }
+
+.acid_cards p {
+    text-transform: capitalize;
+}

@@ -154,42 +154,58 @@
                     "symbol": "I",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Иодоводородная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://rearus.ru/image/cache/data/images/acros/10034-85-2-500x500.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/83fb34b271df4d1b31aecab831aace0212fe227e"
                             },
                             "oxidation": "-1"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Гипоиодистая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hypoiodige-S%C3%A4ure.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/950fc1689a0000b9b48a9798aedaecfcc0182fda"
                             },
                             "oxidation": "+1"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Йодная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/8/85/Iodige_Saeure.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/4163fb5f70cb7279899672b2fb57ca70fdb8b5a5"
                             },
                             "oxidation": "+3"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Йодная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/d/db/Iodic_acid.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/1ff2570ecef5404b889fffbe95a49c801a26db14"
                             },
                             "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Метапериодическая кислота",
                             "formula": {
-                                "structure": "",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/0/07/Meta-Periods%C3%A4ure.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/4207ef451c1901dec1165728ccb3edc6babdb27f"
+                            },
+                            "oxidation": "+7"
+                        },
+                        {
+                            "name": "Ортопериодная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ortho-Periods%C3%A4ure.svg",
                                 "molecular": ""
+                            },
+                            "oxidation": "+7"
+                        },
+                        {
+                            "name": "Трипериодная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Triperiods%C3%A4ure.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/8bb5b85d978ed7edf330189fea0a6f6b1e123ead"
                             },
                             "oxidation": "+7"
                         }
@@ -206,92 +222,92 @@
                     "symbol": "S",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Сероводород",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/2/24/Schwefelwasserstoff.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/763b25f0e49d64abcf597e4a5e8656137b318bee"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "-2"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Сульфоксиловая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sulfoxyls%C3%A4ure.svg/1200px-Sulfoxyls%C3%A4ure.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/eb96e59aa6cbedb374bf8e2821d6b35627456ed8"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+2"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Тиосерная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sulfurothioic_S-acid.svg/150px-Sulfurothioic_S-acid.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/0ab662a796f9f890756f49f402c651967a5e6665"
+                            },
+                            "oxidation": "-1 / +5"
+                        },
+                        {
+                            "name": "Дитионовая кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dithionous_acid.svg/1200px-Dithionous_acid.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/dabd8fd1f1000351ca8681451ecbc5e6bfd22614"
                             },
                             "oxidation": "+3"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Пиросернистая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://chemiday.com/_pu/2/08000482.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/0dcac59524b032b05fb58827cb661c24b82a2147"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+3 / +5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Сернистая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sulfurous-acid-2D-pyramidal.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/fa77275bb044ed12c6fb1f4934ad1f1e17af9abc"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Дитионовая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Dithionic-acid-2D.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/84470d30823c90ae5e8e0850ef221379b2c56904"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Серная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sulfuric_Acid_Structural_Formula_V1.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/f3189e5ed8f0373e5a40064ac122e2cef37724d9"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+6"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Дисерная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dischwefels%C3%A4ure_-_Disulfuric_acid.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/b7eea62d6f91b62a594a887fb88e6d8c90be9a7c"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+6"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Пероксомоносерная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Peroxomonoschwefels%C3%A4ure.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/89a346e516f31cefad8ca7b79829b4c5463344cd"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+6"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Пероксодисерная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/8/80/Peroxodischwefels%C3%A4ure.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/9fbfe536fea5a232eb524e44886320d6cedea6dd"
                             },
-                            "oxidation": "+1"
-                        },
-                        {
-                            "name": "Перксеноновая кислота",
-                            "formula": {
-                                "structure": "",
-                                "molecular": ""
-                            },
-                            "oxidation": "+3"
+                            "oxidation": "+6"
                         }
                     ]
                 },
@@ -301,28 +317,28 @@
                     "symbol": "Se",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Селеноводород",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Hydrogen_selenide.svg/1280px-Hydrogen_selenide.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/99bbd9f93a62a01a735fa1c4f672c6523cc63dec"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "-2"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Селенистая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://www.sigmaaldrich.com/deepweb/content/dam/sigma-aldrich/structure1/194/mfcd00011331.eps/_jcr_content/renditions/mfcd00011331-medium.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/54e007a0946dc3353888fac220ce4a82fbec7057"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Селеновая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Selenic-acid-2D.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/0837a5b217bbabfb6d53287051b4f7ceebd25567"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+6"
                         }
                     ]
                 },
@@ -332,28 +348,28 @@
                     "symbol": "Te",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Теллуроводород",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hydrogen_telluride.svg/1200px-Hydrogen_telluride.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/f6d2037b5160f0b62a298b6aabf5bae263fb6b83"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "-2"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Теллуристая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tellurige_S%C3%A4ure.svg/640px-Tellurige_S%C3%A4ure.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/6f4f5e67d051a47843094a35b270b0464afc0d9a"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Теллуровая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://assets.fishersci.com/TFS-Assets/CCG/Chemical-Structures/chemical-structure-cas-7803-68-1.jpg-650.jpg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/bf43b1d249372544c50e62352964a52583d95bd3"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+6"
                         }
                     ]
                 }
@@ -368,44 +384,44 @@
                     "symbol": "N",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Гидразойная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://homework.study.com/cimages/multimages/16/6653468-21122229510847810192.jpg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/3b9b8c236743be47985c5de85d60028a20e022a0"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "−2 / −3 / −4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Азотноватистая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hyponitrous_acid_trans.svg/418px-Hyponitrous_acid_trans.svg.png?20080522204336",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/bc6aab86f221c727fd6de836a4aba7de6f9a1c36"
                             },
                             "oxidation": "+1"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Азотистая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Salpetrige_S%C3%A4ure.png/800px-Salpetrige_S%C3%A4ure.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/1124ca8b7a36b35bd910bc73c86c4feb4b528869"
                             },
                             "oxidation": "+3"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Азотная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nitric-acid.png/800px-Nitric-acid.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/25c576f45843d1c1330fb11d17227817b027ccde"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Пероксоазотная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Peroxosalpeters%C3%A4ure.svg/120px-Peroxosalpeters%C3%A4ure.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/76d9284d251467e42e43ffcb52696b96ef7e65ed"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+5"
                         }
                     ]
                 },
@@ -415,76 +431,76 @@
                     "symbol": "P",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Фосфиновая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
-                            },
-                            "oxidation": "-1"
-                        },
-                        {
-                            "name": "Перксеноновая кислота",
-                            "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Phosphins%C3%A4ure_-_Hypophosphorous_acid.svg/120px-Phosphins%C3%A4ure_-_Hypophosphorous_acid.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/99651717bac0f6e976e187d29666a4929b0e597bs"
                             },
                             "oxidation": "+1"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Фосфоновая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/H3PO3new.svg/150px-H3PO3new.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/4a2d9f3aae77edd4651c7b0dc93139fc6492acef"
                             },
                             "oxidation": "+3"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Гиподифосфорная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=26542287&w=250&h=250",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/2b66e3c94e4f4723fb5364a7fd8d3c87d0d90ac8"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Дифосфоновая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://chemiday.com/_pu/2/77506253.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/88d3d8bccee2029bd3ebbd0fb0b660c4095d776a"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Фосфорная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Phosphors%C3%A4ure_-_Phosphoric_acid.svg/150px-Phosphors%C3%A4ure_-_Phosphoric_acid.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/d04a1e0b7b2d86bcc94a7c32971a1ed69ea4e40e"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Фосфорноватая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hypophosphoric_acid.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/69eb6aff504dc295f9ccafadf500816ceabc6547"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Дифосфорная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Diphosphors%C3%A4ure.svg/200px-Diphosphors%C3%A4ure.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/282db581fe541ba3cfdd1373d2106961f8701cce"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Пероксофосфорная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Peroxomonophosphoric_acid_structure01.svg/220px-Peroxomonophosphoric_acid_structure01.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/acfa04db0303105b1fd0731cf1882c1273b69721"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+5"
+                        },
+                        {
+                            "name": "Пероксодифосфорная кислота",
+                            "formula": {
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Peroxodiphosphors%C3%A4ure_-_Peroxodiphosphoric_acid.svg/250px-Peroxodiphosphors%C3%A4ure_-_Peroxodiphosphoric_acid.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/7400e2c17f4905aefcc2cdc2949d73173a0c5f77"
+                            },
+                            "oxidation": "+5"
                         }
                     ]
                 },
@@ -494,20 +510,20 @@
                     "symbol": "As",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Мышьяковая (III) кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arsenous-acid-2D.svg/345px-Arsenous-acid-2D.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/b2da4b8b1206a82c246d6bdd328e40fb42121aba"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "+3"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Мышьяковая (V) кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Arsenate.svg/150px-Arsenate.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/2cc62b0c811c4d0f5107dcba46ad79d0aacb48f7"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         }
                     ]
                 },
@@ -517,20 +533,12 @@
                     "symbol": "Sb",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Сурьмяная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Hexahydroxidoantimonat%28V%29-Ion.svg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/e30797e3df56119b39db7c4c3ae7b5a3ae76a236"
                             },
-                            "oxidation": "-1"
-                        },
-                        {
-                            "name": "Перксеноновая кислота",
-                            "formula": {
-                                "structure": "",
-                                "molecular": ""
-                            },
-                            "oxidation": "+1"
+                            "oxidation": "+5"
                         }
                     ]
                 },
@@ -540,28 +548,28 @@
                     "symbol": "Si",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Метакремниевая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLKSY2SoTroGOBjWZY09H28RG6ra_5Su7Hx6zOX5zCEB5Ax1kOVi41R_YqIMN28HF_Qc&usqp=CAU",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/d08faab4dd39826f0bb580d3fc45873ec1bd74b8"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "+4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Ортокремниевая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://whatsinsight.org/wp-content/uploads/2022/05/SILICIC-ACID-1.jpg",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5555d0d97b6de7103fb66ff38d60647e7b4afe86"
                             },
-                            "oxidation": "+1"
+                            "oxidation": "+4"
                         },
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "пирокремниевая кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Acido_pirosilicico.png/220px-Acido_pirosilicico.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/e7f4e91ca8082753bbad69d9cd072e483bc653a8"
                             },
-                            "oxidation": "+3"
+                            "oxidation": "+4"
                         }
                     ]
                 },
@@ -571,12 +579,12 @@
                     "symbol": "B",
                     "acids": [
                         {
-                            "name": "Перксеноновая кислота",
+                            "name": "Борная кислота",
                             "formula": {
-                                "structure": "",
-                                "molecular": ""
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Structural_formula_of_boric_acid.svg/150px-Structural_formula_of_boric_acid.svg.png",
+                                "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/81ac2a12be510878954f59e8387088b5c4943def"
                             },
-                            "oxidation": "-1"
+                            "oxidation": "+3"
                         }
                     ]
                 }

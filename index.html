@@ -20,7 +20,7 @@
                     <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
                     <ul x-data="{ groups: [], onhover: false, }" x-init="groups = (await(await fetch('./data/acid_elem_groups.json')).json()).groups">
                         <template x-for="(group, group_id) in groups">
-                            <div    x-data="{ open: group_id == 0 ? true : false }" 
+                            <div    x-data="{ open: group_id == 0 ? true : false, chosen: 0 }" 
                                     @change="open = !open">
                                 <br>
                                 <h4 @click="$dispatch('change')" 
@@ -31,7 +31,8 @@
                                     <br>
                                     <template x-for="(elem, el_id, arr) in group.elems">
                                         <li @mouseenter="onhover = true" @mouseleave="onhover = false">
-                                            <a  href="/" @click.prevent @click="$store.group.changeArticle(group_id, el_id)"
+                                            <a  href="/" @click.prevent 
+                                                @click="$store.group.changeArticle(group_id, el_id)"
                                                 :title="elem.name_en" 
                                                 x-text="elem.name_ru +' ('+ elem.acids.length +')'"
                                             ></a>
@@ -43,10 +44,17 @@
                                 </div>
                             </div>
                         </template>
+                        <template x-teleport=".acid_cards">
+                            <div x-cloak>
+                                <template x-for="(acid, acid_id) in $store.group.cur_elem.acids">
+                                    <p x-text="acid.name"></p>
+                                </template>
+                            </div>
+                        </template>
                     </ul>
                 </nav>
-                <article>
-                    <h1 x-data x-text="$store.group.cur_group.name_ru"></h1>
+                <article class="acid_cards">
+                    <h1 x-data x-text="$store.group.cur_elem.name_ru"></h1>
                 </article>
             </main>
         </div>
@@ -74,10 +82,10 @@
 
                 changeArticle(group_id, el_id) {
                     this.chosen = [group_id, el_id];
-                    this.cur_group = this.groups[this.chosen[0]].elems[this.chosen[1]]
+                    this.cur_elem = this.groups[this.chosen[0]].elems[this.chosen[1]]
                 },
     
-                cur_group: [],
+                cur_elem: [],
             })
 
         })
