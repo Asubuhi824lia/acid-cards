@@ -45,16 +45,23 @@
                             </div>
                         </template>
                         <template x-teleport=".acid_cards">
-                            <div x-cloak>
-                                <template x-for="(acid, acid_id) in $store.group.cur_elem.acids">
-                                    <p x-text="acid.name"></p>
-                                </template>
-                            </div>
+                            <template x-for="(acid, acid_id) in $store.group.cur_elem.acids">
+                                <div class="card">
+                                    <strong class="title"><p x-text="acid.name"></p></strong>
+                                    <div class="molecular">
+                                        <img :src="acid.formula.molecular" alt="">
+                                    </div>
+                                    <div class="structure">
+                                        <img :src="acid.formula.structure" alt="">
+                                    </div>
+                                </div>
+                            </template>
                         </template>
                     </ul>
                 </nav>
-                <article class="acid_cards">
-                    <h1 x-data x-text="$store.group.cur_elem.name_ru"></h1>
+                <article x-data x-cloack>
+                    <h1 x-text="$store.group.cur_elem.name_ru"></h1>
+                    <section class="acid_cards"></section>
                 </article>
             </main>
         </div>
@@ -69,9 +76,11 @@
      
                 init() {
                     (async() => {
-                        let {default:json} = await import(`data:application/javascript,
-                            ${encodeURIComponent('export default ')}
-                            ${JSON.stringify(await(await fetch('./data/acid_elem_groups.json')).json())}`);
+                        const {default:json} = await import("./data/acid_elem_groups.json", {
+                            assert: {
+                                type: "json",
+                            },
+                        });
                         this.groups = json.groups
                         
                         this.changeArticle(0, 0)

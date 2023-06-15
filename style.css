@@ -2,9 +2,11 @@
 @import url("./components/main.css");
 @import url("./components/in-main/nav.css");
 @import url("./components/in-main/article.css");
+@import url("./components/in-main/card.css");
 
 :root {
     --app-logo-height: 15vmin;
+    --vertical-margin: 50px;
 }
 
 * {
@@ -18,7 +20,7 @@
     background-color: #896BC9;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
   }
   
   .wrapper {

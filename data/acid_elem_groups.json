@@ -62,7 +62,7 @@
                         {
                             "name": "Соляная кислота",
                             "formula": {
-                                "structure": "https://enfo.hu/sites/default/files/HCl.jpg",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/HCl_molecule_model-VdW_surface.svg/1200px-HCl_molecule_model-VdW_surface.svg.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5b6fc847e862538393418e091544f38ef82a6c7d"
                             },
                             "oxidation": "-1"
@@ -109,7 +109,7 @@
                         {
                             "name": "Бромистоводородная кислота",
                             "formula": {
-                                "structure": "https://w7.pngwing.com/pngs/806/351/png-transparent-hydrobromic-acid-hydrogen-bromide-chemistry-dot-formula.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hydrogen_Bromide_Structural_Formula_V1.svg/1200px-Hydrogen_Bromide_Structural_Formula_V1.svg.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/108dd2b73ada9afa361c5d621c24539dfb713da7"
                             },
                             "oxidation": "-1"
@@ -162,9 +162,9 @@
                             "oxidation": "-1"
                         },
                         {
-                            "name": "Гипоиодистая кислота",
+                            "name": "Иодноватистая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hypoiodige-S%C3%A4ure.png",
+                                "structure": "http://d.zaix.ru/A9Gc.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/950fc1689a0000b9b48a9798aedaecfcc0182fda"
                             },
                             "oxidation": "+1"
@@ -327,7 +327,7 @@
                         {
                             "name": "Селенистая кислота",
                             "formula": {
-                                "structure": "https://www.sigmaaldrich.com/deepweb/content/dam/sigma-aldrich/structure1/194/mfcd00011331.eps/_jcr_content/renditions/mfcd00011331-medium.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/43/Selenous-acid-2D.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/54e007a0946dc3353888fac220ce4a82fbec7057"
                             },
                             "oxidation": "+4"
@@ -366,7 +366,7 @@
                         {
                             "name": "Теллуровая кислота",
                             "formula": {
-                                "structure": "https://assets.fishersci.com/TFS-Assets/CCG/Chemical-Structures/chemical-structure-cas-7803-68-1.jpg-650.jpg",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telluric_acid.svg/620px-Telluric_acid.svg.png?20100405141752",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/bf43b1d249372544c50e62352964a52583d95bd3"
                             },
                             "oxidation": "+6"
@@ -386,7 +386,7 @@
                         {
                             "name": "Гидразойная кислота",
                             "formula": {
-                                "structure": "https://homework.study.com/cimages/multimages/16/6653468-21122229510847810192.jpg",
+                                "structure": "https://i.stack.imgur.com/Xxz7D.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/3b9b8c236743be47985c5de85d60028a20e022a0"
                             },
                             "oxidation": "−2 / −3 / −4"
@@ -402,7 +402,7 @@
                         {
                             "name": "Азотистая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Salpetrige_S%C3%A4ure.png/800px-Salpetrige_S%C3%A4ure.png",
+                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=22936&w=250&h=250",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/1124ca8b7a36b35bd910bc73c86c4feb4b528869"
                             },
                             "oxidation": "+3"
@@ -550,7 +550,7 @@
                         {
                             "name": "Метакремниевая кислота",
                             "formula": {
-                                "structure": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLKSY2SoTroGOBjWZY09H28RG6ra_5Su7Hx6zOX5zCEB5Ax1kOVi41R_YqIMN28HF_Qc&usqp=CAU",
+                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=14085&w=250&h=250",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/d08faab4dd39826f0bb580d3fc45873ec1bd74b8"
                             },
                             "oxidation": "+4"
@@ -558,7 +558,7 @@
                         {
                             "name": "Ортокремниевая кислота",
                             "formula": {
-                                "structure": "https://whatsinsight.org/wp-content/uploads/2022/05/SILICIC-ACID-1.jpg",
+                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=14236&w=250&h=250",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5555d0d97b6de7103fb66ff38d60647e7b4afe86"
                             },
                             "oxidation": "+4"
