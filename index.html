@@ -47,9 +47,12 @@
                         <template x-teleport=".acid_cards">
                             <template x-for="(acid, acid_id) in $store.group.cur_elem.acids">
                                 <div class="card">
-                                    <strong class="title"><p x-text="acid.name"></p></strong>
+                                    <strong class="title">
+                                        <p x-text="acid.name"></p>
+                                    </strong>
                                     <div class="molecular">
                                         <img :src="acid.formula.molecular" alt="">
+                                        <span x-text="'('+acid.oxidation+')'" class="oxidation"></span>
                                     </div>
                                     <div class="structure">
                                         <img :src="acid.formula.structure" alt="">
@@ -84,7 +87,6 @@
                         this.groups = json.groups
                         
                         this.changeArticle(0, 0)
-                        console.log(this.cur_group)
                     })()
                     
                 },

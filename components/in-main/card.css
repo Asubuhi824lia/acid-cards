@@ -19,11 +19,19 @@
 .molecular {
     background: #a1d7ff;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
 }
 .molecular img {
     height: 20px;
     margin-top: 15px;
     margin-bottom: 5px;
+}
+.oxidation {
+    height: 100%;
+    color: chocolate;
 }
 
 .structure {
