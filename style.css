@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
   .App {
     text-align: center;
@@ -21,10 +21,16 @@
     display: flex;
     justify-content: center;
     min-height: 100vh;
-  }
+}
   
-  .wrapper {
+.wrapper {
     width: 85%;
-  }
+}
 
-  [x-cloak] { display: none !important; }
+[x-cloak] { display: none !important; }
+
+footer {
+  background: #E7E9EB;
+  /* margin: 0 var(--vertical-margin);*/
+  padding: 25px;
+}

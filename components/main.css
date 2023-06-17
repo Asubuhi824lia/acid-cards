@@ -3,4 +3,5 @@ main {
     background-color: white;
     display: flex;
     margin: var(--vertical-margin);
+    margin-bottom: 0;
 }

@@ -1,7 +1,14 @@
 nav {
-    background-color: #E7E9EB;
+    background-color: #f7f7f7;
     min-height: inherit;
     width: 30%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.navbar {
     padding: var(--vertical-margin) 25px;
     text-align: left;
 }

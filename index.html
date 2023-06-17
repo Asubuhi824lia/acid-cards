@@ -17,50 +17,55 @@
             </header>
             <main>
                 <nav>
-                    <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
-                    <ul x-data="{ groups: [], onhover: false, }" x-init="groups = (await(await fetch('./data/acid_elem_groups.json')).json()).groups">
-                        <template x-for="(group, group_id) in groups">
-                            <div    x-data="{ open: group_id == 0 ? true : false, chosen: 0 }" 
-                                    @change="open = !open">
-                                <br>
-                                <h4 @click="$dispatch('change')" 
-                                    x-text="group.group_name" 
-                                    class="nav-tabs"></h4>
-
-                                <div x-cloack x-show="open" x-transition.duration.500ms>
+                    <div class="navbar">
+                        <div x-data="{ header: '<h1>Группы</h1>' }" x-html="header"></div>
+                        <ul x-data="{ groups: [], onhover: false, }" x-init="groups = (await(await fetch('./data/acid_elem_groups.json')).json()).groups">
+                            <template x-for="(group, group_id) in groups">
+                                <div    x-data="{ open: group_id == 0 ? true : false, chosen: 0 }" 
+                                        @change="open = !open">
                                     <br>
-                                    <template x-for="(elem, el_id, arr) in group.elems">
-                                        <li @mouseenter="onhover = true" @mouseleave="onhover = false">
-                                            <a  href="/" @click.prevent 
-                                                @click="$store.group.changeArticle(group_id, el_id)"
-                                                :title="elem.name_en" 
-                                                x-text="elem.name_ru +' ('+ elem.acids.length +')'"
-                                            ></a>
-                                            <template x-if="el_id == arr.length-1">
-                                                <hr>
-                                            </template>
-                                        </li>
-                                    </template>
-                                </div>
-                            </div>
-                        </template>
-                        <template x-teleport=".acid_cards">
-                            <template x-for="(acid, acid_id) in $store.group.cur_elem.acids">
-                                <div class="card">
-                                    <strong class="title">
-                                        <p x-text="acid.name"></p>
-                                    </strong>
-                                    <div class="molecular">
-                                        <img :src="acid.formula.molecular" alt="">
-                                        <span x-text="'('+acid.oxidation+')'" class="oxidation"></span>
-                                    </div>
-                                    <div class="structure">
-                                        <img :src="acid.formula.structure" alt="">
+                                    <h4 @click="$dispatch('change')" 
+                                        x-text="group.group_name" 
+                                        class="nav-tabs"></h4>
+
+                                    <div x-cloack x-show="open" x-transition.duration.500ms>
+                                        <br>
+                                        <template x-for="(elem, el_id, arr) in group.elems">
+                                            <li @mouseenter="onhover = true" @mouseleave="onhover = false">
+                                                <a  href="/" @click.prevent 
+                                                    @click="$store.group.changeArticle(group_id, el_id)"
+                                                    :title="elem.name_en" 
+                                                    x-text="elem.name_ru +' ('+ elem.acids.length +')'"
+                                                ></a>
+                                                <template x-if="el_id == arr.length-1">
+                                                    <hr>
+                                                </template>
+                                            </li>
+                                        </template>
                                     </div>
                                 </div>
                             </template>
-                        </template>
-                    </ul>
+                            <template x-teleport=".acid_cards">
+                                <template x-for="(acid, acid_id) in $store.group.cur_elem.acids">
+                                    <div class="card">
+                                        <strong class="title">
+                                            <p x-text="acid.name"></p>
+                                        </strong>
+                                        <div class="molecular">
+                                            <img :src="acid.formula.molecular" alt="">
+                                            <span x-text="'('+acid.oxidation+')'" class="oxidation"></span>
+                                        </div>
+                                        <div class="structure">
+                                            <img :src="acid.formula.structure" alt="">
+                                        </div>
+                                    </div>
+                                </template>
+                            </template>
+                        </ul>
+                    </div>
+                    <footer>
+                        <a href="https://deru.abcdef.wiki/wiki/Liste_von_S%C3%A4uren" target="_blank">&#169 Источник</a>
+                    </footer>
                 </nav>
                 <article x-data x-cloack>
                     <h1 x-text="$store.group.cur_elem.name_ru + ' ' + $store.group.cur_elem.symbol"></h1>
