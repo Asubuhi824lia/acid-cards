@@ -581,7 +581,7 @@ const data = {
                         {
                             "name": "Борная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Structural_formula_of_boric_acid.svg/150px-Structural_formula_of_boric_acid.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/98/Structural_formula_of_boric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/81ac2a12be510878954f59e8387088b5c4943def"
                             },
                             "oxidation": "+3"
