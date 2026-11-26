@@ -418,7 +418,7 @@ const data = {
                         {
                             "name": "Пероксоазотная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Peroxosalpeters%C3%A4ure.svg/120px-Peroxosalpeters%C3%A4ure.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/8/87/Peroxynitric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/76d9284d251467e42e43ffcb52696b96ef7e65ed"
                             },
                             "oxidation": "+5"
