@@ -62,7 +62,7 @@
                         {
                             "name": "Соляная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/HCl_molecule_model-VdW_surface.svg/1200px-HCl_molecule_model-VdW_surface.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hydrogen_Chloride_Structural_Formula_V1.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5b6fc847e862538393418e091544f38ef82a6c7d"
                             },
                             "oxidation": "-1"
