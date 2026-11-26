@@ -62,7 +62,7 @@ const data = {
                         {
                             "name": "Соляная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/HCl_molecule_model-VdW_surface.svg/1200px-HCl_molecule_model-VdW_surface.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hydrogen_Chloride_Structural_Formula_V1.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5b6fc847e862538393418e091544f38ef82a6c7d"
                             },
                             "oxidation": "-1"
@@ -109,7 +109,7 @@ const data = {
                         {
                             "name": "Бромистоводородная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hydrogen_Bromide_Structural_Formula_V1.svg/1200px-Hydrogen_Bromide_Structural_Formula_V1.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Bromwasserstoff.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/108dd2b73ada9afa361c5d621c24539dfb713da7"
                             },
                             "oxidation": "-1"
@@ -232,7 +232,7 @@ const data = {
                         {
                             "name": "Сульфоксиловая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sulfoxyls%C3%A4ure.svg/1200px-Sulfoxyls%C3%A4ure.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/3/31/Sulfoxyls%C3%A4ure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/eb96e59aa6cbedb374bf8e2821d6b35627456ed8"
                             },
                             "oxidation": "+2"
@@ -240,15 +240,15 @@ const data = {
                         {
                             "name": "Тиосерная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sulfurothioic_S-acid.svg/150px-Sulfurothioic_S-acid.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/90/Thioschwefelsäure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/0ab662a796f9f890756f49f402c651967a5e6665"
                             },
                             "oxidation": "-1 / +5"
                         },
                         {
-                            "name": "Дитионовая кислота",
+                            "name": "Дитионистая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dithionous_acid.svg/1200px-Dithionous_acid.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dithionige_S%C3%A4ure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/dabd8fd1f1000351ca8681451ecbc5e6bfd22614"
                             },
                             "oxidation": "+3"
@@ -256,7 +256,7 @@ const data = {
                         {
                             "name": "Пиросернистая кислота",
                             "formula": {
-                                "structure": "https://chemiday.com/_pu/2/08000482.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/1/19/Dischweflige_Säure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/0dcac59524b032b05fb58827cb661c24b82a2147"
                             },
                             "oxidation": "+3 / +5"
