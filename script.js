@@ -394,7 +394,7 @@ const data = {
                         {
                             "name": "Азотноватистая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hyponitrous_acid_trans.svg/418px-Hyponitrous_acid_trans.svg.png?20080522204336",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/42/Hyponitrous_acid_trans.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/bc6aab86f221c727fd6de836a4aba7de6f9a1c36"
                             },
                             "oxidation": "+1"
@@ -402,7 +402,7 @@ const data = {
                         {
                             "name": "Азотистая кислота",
                             "formula": {
-                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=22936&w=250&h=250",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nitrous_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/1124ca8b7a36b35bd910bc73c86c4feb4b528869"
                             },
                             "oxidation": "+3"
@@ -410,7 +410,7 @@ const data = {
                         {
                             "name": "Азотная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nitric-acid.png/800px-Nitric-acid.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Nitric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/25c576f45843d1c1330fb11d17227817b027ccde"
                             },
                             "oxidation": "+5"
