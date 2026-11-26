@@ -386,7 +386,7 @@ const data = {
                         {
                             "name": "Гидразойная кислота",
                             "formula": {
-                                "structure": "https://i.stack.imgur.com/Xxz7D.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Hydrazoic_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/3b9b8c236743be47985c5de85d60028a20e022a0"
                             },
                             "oxidation": "−2 / −3 / −4"
