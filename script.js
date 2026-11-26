@@ -447,9 +447,9 @@ const data = {
                             "oxidation": "+3"
                         },
                         {
-                            "name": "Гиподифосфорная кислота",
+                            "name": "Дифосфорноватистая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hypodiphosphorsäure_-_Hypodiphosphoric_acid.svg",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hypodiphosphonsäure_-_Hypodiphosphorous_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/2b66e3c94e4f4723fb5364a7fd8d3c87d0d90ac8"
                             },
                             "oxidation": "+5"
@@ -471,7 +471,7 @@ const data = {
                             "oxidation": "+5"
                         },
                         {
-                            "name": "Фосфорноватая кислота",
+                            "name": "Фосфорноватая кислота (Гипофосфорная кислота)",
                             "formula": {
                                 "structure": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hypophosphoric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/69eb6aff504dc295f9ccafadf500816ceabc6547"
