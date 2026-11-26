@@ -350,7 +350,7 @@ const data = {
                         {
                             "name": "Теллуроводород",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hydrogen_telluride.svg/1200px-Hydrogen_telluride.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hydrogen_telluride.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/f6d2037b5160f0b62a298b6aabf5bae263fb6b83"
                             },
                             "oxidation": "-2"
@@ -358,15 +358,15 @@ const data = {
                         {
                             "name": "Теллуристая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tellurige_S%C3%A4ure.svg/640px-Tellurige_S%C3%A4ure.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tellurous-acid-2D.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/6f4f5e67d051a47843094a35b270b0464afc0d9a"
                             },
                             "oxidation": "+4"
                         },
                         {
-                            "name": "Теллуровая кислота",
+                            "name": "Ортотеллуровая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telluric_acid.svg/620px-Telluric_acid.svg.png?20100405141752",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Telluric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/bf43b1d249372544c50e62352964a52583d95bd3"
                             },
                             "oxidation": "+6"
