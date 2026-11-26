@@ -512,7 +512,7 @@ const data = {
                         {
                             "name": "Мышьяковая (III) кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arsenous-acid-2D.svg/345px-Arsenous-acid-2D.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Arsenous-acid-2D.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/b2da4b8b1206a82c246d6bdd328e40fb42121aba"
                             },
                             "oxidation": "+3"
@@ -520,7 +520,7 @@ const data = {
                         {
                             "name": "Мышьяковая (V) кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Arsenate.svg/150px-Arsenate.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arsenic_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/2cc62b0c811c4d0f5107dcba46ad79d0aacb48f7"
                             },
                             "oxidation": "+5"
