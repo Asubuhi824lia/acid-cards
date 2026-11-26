@@ -550,7 +550,7 @@ const data = {
                         {
                             "name": "Метакремниевая кислота",
                             "formula": {
-                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=14085&w=250&h=250",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Metasilicic_acid.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/d08faab4dd39826f0bb580d3fc45873ec1bd74b8"
                             },
                             "oxidation": "+4"
@@ -558,15 +558,15 @@ const data = {
                         {
                             "name": "Ортокремниевая кислота",
                             "formula": {
-                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=14236&w=250&h=250",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Orthokieselsäure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/5555d0d97b6de7103fb66ff38d60647e7b4afe86"
                             },
                             "oxidation": "+4"
                         },
                         {
-                            "name": "пирокремниевая кислота",
+                            "name": "Пирокремниевая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Acido_pirosilicico.png/220px-Acido_pirosilicico.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Acido_pirosilicico.png",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/e7f4e91ca8082753bbad69d9cd072e483bc653a8"
                             },
                             "oxidation": "+4"
