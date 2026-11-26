@@ -433,7 +433,7 @@ const data = {
                         {
                             "name": "Фосфиновая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Phosphins%C3%A4ure_-_Hypophosphorous_acid.svg/120px-Phosphins%C3%A4ure_-_Hypophosphorous_acid.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Phosphinsäure_-_Hypophosphorous_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/99651717bac0f6e976e187d29666a4929b0e597b"
                             },
                             "oxidation": "+1"
@@ -441,7 +441,7 @@ const data = {
                         {
                             "name": "Фосфоновая кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/H3PO3new.svg/150px-H3PO3new.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Phosphonsäure_-_Phosphorous_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/4a2d9f3aae77edd4651c7b0dc93139fc6492acef"
                             },
                             "oxidation": "+3"
@@ -449,7 +449,7 @@ const data = {
                         {
                             "name": "Гиподифосфорная кислота",
                             "formula": {
-                                "structure": "https://www.chemspider.com/ImagesHandler.ashx?id=26542287&w=250&h=250",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hypodiphosphorsäure_-_Hypodiphosphoric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/2b66e3c94e4f4723fb5364a7fd8d3c87d0d90ac8"
                             },
                             "oxidation": "+5"
@@ -457,7 +457,7 @@ const data = {
                         {
                             "name": "Дифосфоновая кислота",
                             "formula": {
-                                "structure": "https://chemiday.com/_pu/2/77506253.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/45/Diphosphonsäure_-_Diphosphorous_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/88d3d8bccee2029bd3ebbd0fb0b660c4095d776a"
                             },
                             "oxidation": "+5"
@@ -465,7 +465,7 @@ const data = {
                         {
                             "name": "Фосфорная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Phosphors%C3%A4ure_-_Phosphoric_acid.svg/150px-Phosphors%C3%A4ure_-_Phosphoric_acid.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/6/66/Phosphorsäure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/d04a1e0b7b2d86bcc94a7c32971a1ed69ea4e40e"
                             },
                             "oxidation": "+5"
@@ -481,7 +481,7 @@ const data = {
                         {
                             "name": "Дифосфорная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Diphosphors%C3%A4ure.svg/200px-Diphosphors%C3%A4ure.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Diphosphorsäure.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/282db581fe541ba3cfdd1373d2106961f8701cce"
                             },
                             "oxidation": "+5"
@@ -489,7 +489,7 @@ const data = {
                         {
                             "name": "Пероксофосфорная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Peroxomonophosphoric_acid_structure01.svg/220px-Peroxomonophosphoric_acid_structure01.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/7/73/Peroxomonophosphoric_acid_structure02.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/acfa04db0303105b1fd0731cf1882c1273b69721"
                             },
                             "oxidation": "+5"
@@ -497,7 +497,7 @@ const data = {
                         {
                             "name": "Пероксодифосфорная кислота",
                             "formula": {
-                                "structure": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Peroxodiphosphors%C3%A4ure_-_Peroxodiphosphoric_acid.svg/250px-Peroxodiphosphors%C3%A4ure_-_Peroxodiphosphoric_acid.svg.png",
+                                "structure": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Peroxodiphosphorsäure_-_Peroxodiphosphoric_acid.svg",
                                 "molecular": "https://wikimedia.org/api/rest_v1/media/math/render/svg/7400e2c17f4905aefcc2cdc2949d73173a0c5f77"
                             },
                             "oxidation": "+5"
