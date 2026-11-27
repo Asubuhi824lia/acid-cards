@@ -2,6 +2,7 @@ nav {
     background-color: #f7f7f7;
     min-height: inherit;
     width: 30%;
+    min-width: min-content;
 
     display: flex;
     justify-content: space-between;

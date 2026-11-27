@@ -19,3 +19,15 @@ article h1 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+@media (max-width: 1200px) and (min-width: 1010px) {
+  .acid_cards {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 576px) {
+  article {
+    padding: var(--vertical-margin) 10px;
+  }
+}
